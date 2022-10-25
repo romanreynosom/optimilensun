@@ -1,0 +1,24 @@
+.fondo{
+    background: rgb(250, 247, 247);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    font-size:50px;
+}
+.logo2{
+    height: 100%;
+    margin-left: 40%;
+    margin-top: 10%;
+    position: relative;
+    animation: 5.5s infinite rodar;
+}
+@keyframes rodar {
+    100%{transform: rotate(-360deg);}
+}
+
+.principal2{
+ height: 20%;
+}
+

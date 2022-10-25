@@ -1,0 +1,13 @@
+.principal{
+    border: .2pc solid rgb(36, 99, 194);
+    border-radius: 5%;
+}
+
+.principal{
+    transition: all .5s ease-in-out;
+}
+.principal:hover{transform: scale(1.2);}
+
+h5{
+    font-family: "baskerville";
+}

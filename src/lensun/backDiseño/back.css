@@ -1,0 +1,16 @@
+.back{
+    border: .2pc solid rgb(36, 99, 194);
+    border-radius: 5%;
+}
+.card-img-top{
+   height: 260px;
+   
+   
+}
+@media (min-width: 767px) {
+   
+.principal{
+   
+    height: 360px;
+    width: 200px;
+}}

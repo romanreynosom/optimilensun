@@ -1,17 +1,23 @@
 import React from "react";
-import LensunHeader from "../../header/headerlensun";
+import LensunHeader from "../../header/lensun/headerlensun";
 import ReactPlayer from "react-player"
 import "./lensun.css"
-
+import Optiheader from "../../header/optimizar/headerOpt.js";
+import productos from '../../lensun principal/principla/len';
 
 function Lensun(){
     return(
        <>
        <header />
       
-        <body>
-        <LensunHeader/>
-        <section>
+        <body className="LenBody">
+         <div className="encabezados">
+       
+         <LensunHeader/>
+        </div>
+        
+       
+        <section className="fotosProd">
           <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     <div class="col mb-5">

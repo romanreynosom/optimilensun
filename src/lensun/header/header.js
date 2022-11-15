@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Contacto from '../modal/modal';
 import './header.css';
 import productos from '../lensun principal/principla/len';
-
+import logo from "../../inicio/foto/Logo-optimizar-tecno-Blanco.png"
 const Cabeza = () => {
 
     const [ menu , setMenu ] = useState( false )
@@ -19,7 +19,7 @@ const Cabeza = () => {
                 <Contacto />
             </div>
         </h1>
-
+       
         <button 
             onClick={ toggleMenu }
          className="Cabecera-button">
@@ -36,7 +36,7 @@ const Cabeza = () => {
                 
             </ul>
         </nav>
-
+     
     </header>
 )
 }

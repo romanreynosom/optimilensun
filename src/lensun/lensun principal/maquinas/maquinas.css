@@ -1,3 +1,6 @@
+
+
+
 .principal{
     border: .2pc solid rgb(36, 99, 194);
     border-radius: 5%;
@@ -11,3 +14,18 @@
 h5{
     font-family: "baskerville";
 }
+
+.botonesmaquinas{
+   border-radius: 8%;
+   border-color: rgb(36, 99, 194);
+   align-items: center;
+}
+
+@media (max-width: 767px) {
+   
+    .botonesmaquinas2{
+       margin-left: -20px;
+       font-size: small;
+    }
+  
+ }

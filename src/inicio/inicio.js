@@ -1,5 +1,6 @@
 import React from "react"
 import "./inicio2.css"
+import productos from "../lensun/lensun principal/principla/len"
 
 function Optimizar (){
     return(
@@ -7,7 +8,7 @@ function Optimizar (){
         <div className="fondo">
          
          <section >
-         <div ><img className="logo2" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/logos%20marcar%2Foptimizar.png?alt=media&token=d64726e8-c249-42f3-84a2-51ff944d2772"/></div>   
+         <div className="divlogo"><img className="logo2" height={500} src={productos[14].img  }/></div>   
           <div class="container px-4 px-lg-5 mt-5">
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     <div class="col mb-5">
@@ -38,7 +39,7 @@ function Optimizar (){
                     <div class="col mb-5">
                     <div className="principal">
                         <div class="card h-100">
-                          <a href="...wuw"><img className="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/logos%20marcar%2Fwuw.png?alt=media&token=27d0b7e8-64e6-4d33-aeac-ffcfdcec8495" alt="imagen de back" /></a>  
+                          <a href="/wuw"><img className="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/logos%20marcar%2Fwuw.png?alt=media&token=27d0b7e8-64e6-4d33-aeac-ffcfdcec8495" alt="imagen de back" /></a>  
                            
                            
                             </div>

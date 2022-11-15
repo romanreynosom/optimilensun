@@ -26,7 +26,7 @@ class Custom2 extends React.Component{
     return(
       <>
       <body className='bodymodal'> 
-      <button className='botonPrincipal' onClick={this.abrirModal}><strong>+INFORMACION</strong></button>
+      <button className='botonPrincipal' onClick={this.abrirModal}><strong className='strong'>+ INFO</strong></button>
 
       
 
@@ -52,10 +52,10 @@ class Custom2 extends React.Component{
         </Table>
         </ModalBody>
 
-        <ModalFooter>
+      
             
-            <button color="secondary" onClick={this.abrirModal}>Cerrar</button>
-        </ModalFooter>
+            <button className='btn btn-primary' onClick={this.abrirModal}>Cerrar</button>
+        
       </Modal>
       </body>
       </>

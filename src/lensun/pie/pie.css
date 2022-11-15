@@ -21,8 +21,22 @@ p{
     color: black;
     border: none;
     outline: none;
-
+    
 }
 .bodyPie{
     background-color: rgb(27, 116, 187);
+}
+
+.modalimg{
+   text-align: center;
+}
+
+@media (max-width: 967px) {
+   
+    .body{
+    
+      
+      width: 100%;
+     
+    }
 }

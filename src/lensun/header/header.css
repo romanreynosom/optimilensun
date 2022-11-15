@@ -1,6 +1,6 @@
 .CabeceraN{
     width:100%;
-    background: url(../fotos/logos/Cabezal-Optimizar.jpg);
+    background: url(../fotos/logos/insta4.jpeg);
     background-repeat: repeat-x;
     padding:1em;
 
@@ -49,7 +49,7 @@
         transition: all .5s ease;
     }
     .Cabecera-nav.isActive{
-        height:15vh;
+        height:150px;
         opacity: 1;
     }
     .Cabecera-ul{
@@ -58,7 +58,24 @@
     .Cabecera-li{
         margin: .5em 0;
     }
+  
 }
+@media screen and (max-width:480px) {
+    .CabeceraN{
+        background-image: url(../fotos/logos/cabezal-optimizar-8.png);
+      
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px){
+    .CabeceraN{
+        background-image: url(../fotos/logos/cabezal-optimizar-6.png);
+    }
+}
+
+
+
 
 .logo{
     
@@ -88,6 +105,7 @@ list-style-type: none;
 }
 
 .h4i{
+    
     color: rgb(241, 234, 233);
     font-family: cursive;
     font-style: italic;

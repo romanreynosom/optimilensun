@@ -1,150 +1,154 @@
 import React from "react"
-
+import "./mark.css"
 function Mark(){
     return(
-        <>
+      <>
        
       
-    <body>
+      <body className="maxxa">
+      
+      <section className="fotosMaxxa">
+      <img className="maxxaTop" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/logos%20marcar%2Fmark.png?alt=media&token=e77c878e-bea4-4ddb-8c64-a0e2578792de"  alt="..." />
+        <br></br>
+        <div class="container px-4 px-lg-5 mt-5">
+              <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                  <div class="col mb-5">
+                    <div className="backMaxxa"> 
+                      <div class="card h-100">
+                          <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/mark%2Fi5.jpeg?alt=media&token=d9813734-0574-4cb8-89b5-c42eed14a9e2" /> 
+                          <div class="card-body p-4">
+                            <div class="text-center">
+                              <h5 class="fw-bolder">I5 
+                              <p>Earphone</p>
+                              </h5>
+                             
+                             </div>
+                          </div>
+                          </div>  
+                          
+                      </div>
+                  </div>
+                  <div class="col mb-5">
+                    <div className="backMaxxa"> 
+                      <div class="card h-100">
+                          <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/mark%2Fdr-10%20micro%20usb.jpeg?alt=media&token=16b8a36e-977d-4d76-b759-4d4b6526ba84" /> 
+                          <div class="card-body p-4">
+                            <div class="text-center">
+                              <h5 class="fw-bolder">DR-10
+                              <p>Micro Usb 5A</p>
+                              </h5>
+                             
+                             </div>
+                          </div>
+                          </div>  
+                          
+                      </div>
+                  </div>
+                  <div class="col mb-5">
+                  <div className="backMaxxa">
+                      <div class="card h-100">
+                          <img className="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/mark%2Fdr-10%20lightning.jpeg?alt=media&token=faafb0df-d19a-4bb7-bf5e-bebfe7d79588" alt="..." />
+                          <div class="card-body p-4">
+                            <div class="text-center">
+                              <h5 class="fw-bolder">DR-10
+                              <p>Lightning A</p>
+                              </h5>
+                              
+                             </div>
+                          </div>
+                         </div>
+                         
+                      </div>
+                  </div>
+                  <div class="col mb-5">
+                  <div className="backMaxxa">
+                      <div class="card h-100">
+                          <img className="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/mark%2Fdr-10%20type%20c.jpeg?alt=media&token=13e2cb96-595b-40f6-8021-331034d7be1d" alt="imagen de back" />
+                          <div class="card-body p-4">
+                            <div class="text-center">
+                              <h5 class="fw-bolder">DR-10
+                              <p>Type C 5A</p>
+                              </h5>
+                            
+                             </div>
+                          </div>
+                         
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col mb-5">
+                  <div className="backMaxxa">
+                      <div class="card h-100">
+                          <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/mark%2Fj3.jpeg?alt=media&token=7ed175e4-8654-490b-9d0c-44c1d5cb2c40" alt="..." />
+                          <div class="card-body p-4">
+                            <div class="text-center">
+                              <h5 class="fw-bolder">J3
+                              <p>Car Holder</p>
+                              </h5>
+                             
+                             </div>
+                          </div>
+                         
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col mb-5">
+                  <div className="backMaxxa">
+                      <div class="card h-100">
+                          <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/mark%2Fdr-10%20micro%20usb.jpeg?alt=media&token=16b8a36e-977d-4d76-b759-4d4b6526ba84" alt="..." />
+                          <div class="card-body p-4">
+                            <div class="text-center">
+                              <h5 class="fw-bolder">DR-10
+                              <p>Micro Usb 3A</p>
+                              </h5>
+                            
+                             </div>
+                          </div>
+                         </div>
+                          
+                      </div>
+                  </div><div class="col mb-5">
+                  <div className="backMaxxa">
+                      <div class="card h-100">
+                          <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/mark%2Fdr-10%20lightning.jpeg?alt=media&token=faafb0df-d19a-4bb7-bf5e-bebfe7d79588" alt="..." />
+                          <div class="card-body p-4">
+                            <div class="text-center">
+                              <h5 class="fw-bolder">DR-10
+                              <p>Lightning 3A</p>
+                              </h5>
+                              
+                             </div>
+                          </div>
+                         
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col mb-5">
+                  <div className="backMaxxa">
+                      <div class="card h-100">
+                          <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/mark%2Fdr-10%20type%20c.jpeg?alt=media&token=13e2cb96-595b-40f6-8021-331034d7be1d" alt="..." />
+                          <div class="card-body p-4">
+                            <div class="text-center">
+                              <h5 class="fw-bolder">DR-10
+                              <p>Type C 3A</p>
+                              </h5>
+                             
+                             </div>
+                          </div>
+                         
+                          </div>
+                      </div>
+                  </div>
+                 
+                  </div>
+                  </div>      
+      </section>
+   </body>   
+  
+   </>
+       
+      
     
-    <section className="fotos">
-      <div class="container px-4 px-lg-5 mt-5">
-            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                <div class="col mb-5">
-                  <div className="back"> 
-                    <div class="card h-100">
-                        <img class="card-img-top" src=".." /> 
-                        <div class="card-body p-4">
-                          <div class="text-center">
-                            <h5 class="fw-bolder">MR027</h5>
-                           
-                           </div>
-                        </div>
-                        </div>  
-                        
-                    </div>
-                </div>
-                <div class="col mb-5">
-                  <div className="back"> 
-                    <div class="card h-100">
-                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/back%2Fdise%C3%B1o%2FBACK%20WCU-041.jpg?alt=media&token=bb752324-5009-4103-8c9b-555091866d33" /> 
-                        <div class="card-body p-4">
-                          <div class="text-center">
-                            <h5 class="fw-bolder">MR027</h5>
-                           
-                           </div>
-                        </div>
-                        </div>  
-                        
-                    </div>
-                </div>
-                <div class="col mb-5">
-                <div className="back">
-                    <div class="card h-100">
-                        <img className="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/back%2Fdise%C3%B1o%2FBACK%20WCU-DW041.jpg?alt=media&token=23719f21-2fc4-4c68-b10a-39d5a6c36270" alt="..." />
-                        <div class="card-body p-4">
-                          <div class="text-center">
-                            <h5 class="fw-bolder">DW041</h5>
-                            
-                           </div>
-                        </div>
-                       </div>
-                       
-                    </div>
-                </div>
-                <div class="col mb-5">
-                <div className="back">
-                    <div class="card h-100">
-                        <img className="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/back%2Fdise%C3%B1o%2FBACK%20WCU-DY036.jpg?alt=media&token=3d67a1c0-bbd0-46b7-8526-614a921cdd67" alt="imagen de back" />
-                        <div class="card-body p-4">
-                          <div class="text-center">
-                            <h5 class="fw-bolder">DY036</h5>
-                          
-                           </div>
-                        </div>
-                       
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-5">
-                <div className="back">
-                    <div class="card h-100">
-                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/back%2Fdise%C3%B1o%2FBACK%20WCU-KJ001.jpg?alt=media&token=c8917791-3b65-47e7-a953-c7207ac3b691" alt="..." />
-                        <div class="card-body p-4">
-                          <div class="text-center">
-                            <h5 class="fw-bolder">KJ001</h5>
-                          
-                           </div>
-                        </div>
-                       </div>
-                        
-                    </div>
-                </div><div class="col mb-5">
-                <div className="back">
-                    <div class="card h-100">
-                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/back%2Fdise%C3%B1o%2FBACK%20WCU-KT085.jpg?alt=media&token=beec50df-07a8-4811-9844-c391290e20eb" alt="..." />
-                        <div class="card-body p-4">
-                          <div class="text-center">
-                            <h5 class="fw-bolder">KT085</h5>
-                            
-                           </div>
-                        </div>
-                       
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-5">
-                <div className="back">
-                    <div class="card h-100">
-                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/back%2Fdise%C3%B1o%2FBACK%20WCU-KT053.jpg?alt=media&token=3abb4af7-5f8d-43de-9ed2-541f02577892" alt="..." />
-                        <div class="card-body p-4">
-                          <div class="text-center">
-                            <h5 class="fw-bolder">KT053</h5>
-                           
-                           </div>
-                        </div>
-                       
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-5">
-                <div className="back">
-                    <div class="card h-100">
-                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/back%2Fdise%C3%B1o%2FBACK-ZR037.jpg?alt=media&token=af42515f-8506-4a25-8b36-1e8bb61093db" alt="..." />
-                        <div class="card-body p-4">
-                          <div class="text-center">
-                            <h5 class="fw-bolder">ZR037</h5>
-                           
-                           </div>
-                        </div>
-                       
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-5">
-                <div className="back">
-                    <div class="card h-100">
-                        <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/back%2Fdise%C3%B1o%2FWCU-KJ021.jpg?alt=media&token=03a95bc4-ddcb-40c6-9463-93ad35428da0" alt="..." />
-                        <div class="card-body p-4">
-                          <div class="text-center">
-                            <h5 class="fw-bolder">KJ021</h5>
-                           
-                           </div>
-                        </div>
-                       
-                        </div>
-                    </div>
-                </div>
-
-
-               
-
-                </div>
-                </div>      
-    </section>
- </body>   
-
- </>
     )
 }
 

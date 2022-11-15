@@ -1,5 +1,5 @@
 import React from "react"
-import LensunHeader from "../../header/headerlensun"
+import LensunHeader from "../../header/lensun/headerlensun"
 import Custom2 from "./custopro/custompro"
 import CustomLite from "./customlite/customlite"
 import Maquina03 from "./uv03/uv03"
@@ -15,9 +15,9 @@ function Maquinas(){
         <LensunHeader/>
     
    
-      <div class="container px-4 px-lg-5 mt-5">
-            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                <div class="col mb-5 row-25">
+      <div class="container px-2 px-lg-5 mt-5">
+            <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-5 justify-content-center">
+                <div class="col mb-5">
                   <div className="principal"> 
                     <div class="card h-100">
                         <img class="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/maquinas%2Fmaquina-lensun-custom.jpg?alt=media&token=30ff9819-64bd-4d8f-af40-6dfbd06f551e" /> 
@@ -25,13 +25,13 @@ function Maquinas(){
                           <div class="text-center">
                             <h5 class="fw-bolder">CustomPro</h5>
                             </div>
-                            <button class="btn btn-secundary"><Custom2/></button>
+                            <button className="botonesmaquinas2"><Custom2/></button>
                            </div>
                           
                     </div>
                 </div>
               </div>
-                <div class="col mb-5">
+                <div class="col mb-5" >
                 <div className="principal">
                     <div class="card h-100">
                         <img className="card-img-top" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/maquinas%2Fmaquinasmall.jpg?alt=media&token=449a18df-813f-4c0c-b124-1a75d2cdf2ba" alt="..." />
@@ -39,7 +39,7 @@ function Maquinas(){
                           <div class="text-center">
                             <h5 class="fw-bolder">CustomPro Lite</h5>
                            </div>
-                           <button class="btn btn-secundary"><CustomLite/></button>
+                           <button className="botonesmaquinas2"><CustomLite/></button>
                         </div>
                        
                        </div>  
@@ -54,7 +54,7 @@ function Maquinas(){
                         <div class="card-body p-4">
                           <div class="text-center">
                             <h5 class="fw-bolder"> UV 03 </h5>
-                            <button class="btn btn-secundary"><Maquina03/></button>
+                            <button className="botonesmaquinas2"><Maquina03/></button>
                            </div>
                         </div>
                         </div>  
@@ -68,7 +68,7 @@ function Maquinas(){
                         <div class="card-body p-4">
                           <div class="text-center">
                             <h5 class="fw-bolder">  UV 09 </h5>
-                            <button class="btn btn-secundary"><Maquina09/></button>
+                            <button className="botonesmaquinas2"><Maquina09/></button>
                            </div>
                         </div>
                        </div>

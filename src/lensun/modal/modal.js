@@ -1,6 +1,6 @@
 import React from 'react';
-
-import './modal.css';
+import "./modal.css"
+import "../pie/piecorreo.css"
 import {Button, Modal, ModalHeader, ModalBody, ModalFooter, FormGroup, Input, Label} from 'reactstrap';
 import productos from '../lensun principal/principla/len';
 
@@ -25,14 +25,14 @@ class Contacto extends React.Component{
     }
     return(
       <>
-      <body className='bodymodal'> 
-      <button  className='botonPrincipal' onClick={this.abrirModal}  >Contactanos</button>
+      <body className='bodyModal'> 
+      <Button  className='botonModal' onClick={this.abrirModal}  >Contactanos</Button>
 
       
 
-      <Modal  isOpen={this.state.abierto} style={modalStyles} >
+      <Modal className='modalPie' isOpen={this.state.abierto} style={modalStyles} >
         <ModalHeader>
-          <img className='imgLog' height={320} src={productos[11].img  }/>
+          <img className='modalimg' height={320} src={productos[11].img  }/>
         </ModalHeader>
         <ModalBody>
           <form action="https://formsubmit.co/optimizartecno@gmail.com" method="POST"> 
@@ -50,19 +50,21 @@ class Contacto extends React.Component{
             <Label for="subject">ASUNTO</Label>
             <Input type='text' name='asunto' required/> 
 
-            <label for= "comment">Comentario</label>
-            <textarea name='comments' cols="60" row="150" required></textarea>
+            <label for= "comment">COMENTARIO</label>
+            <textarea className='comentario' name='comments' cols="60" required></textarea>
           </FormGroup>
-
           <div className='btnEnviar'><button class="btn btn-danger" type="submit">enviar</button> </div>
-          <input type="hidden" name="_next" value="http://localhost:3000"></input>
+        
+
+          <input type="hidden" name="_next" value="http://optimizartecno.com.ar/"></input>
           <input type="hidden" name="_captcha" value="false"></input>
           </form>
         </ModalBody>
 
-        <ModalFooter>
-           <button class= "btn btn-primary" onClick={this.abrirModal} >Cerrar</button>
-        </ModalFooter>
+        
+           <div className='cerrar'><Button color="primary" position="center" onClick={this.abrirModal}>Cerrar</Button></div> 
+          
+       
       </Modal>
       </body>
       </>

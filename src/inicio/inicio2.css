@@ -8,15 +8,22 @@
     font-size:50px;
 }
 .logo2{
-    height: 100%;
-    margin-left: 40%;
-    margin-top: 10%;
-    position: relative;
-    animation: 5.5s infinite rodar;
+    margin-top: 35px;   
 }
-@keyframes rodar {
-    100%{transform: rotate(-360deg);}
+@media screen and (max-width:480px){
+
+    .logo2{
+        height: 200px; 
+        margin-top: 45px; 
+    }
 }
+
+
+.divlogo{
+    text-align: center;
+
+}
+
 
 .principal2{
  height: 20%;

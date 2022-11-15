@@ -1,5 +1,5 @@
 
-import LensunHeader from "../header/headerlensun"
+import LensunHeader from "../header/lensun/headerlensun"
 import "./back.css"
 
 function BackDiseño(){ 

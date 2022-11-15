@@ -15,12 +15,13 @@ import Pie from "./lensun/pie/pie";
 
 import Lensun from "../src/lensun/lensun principal/principla/lensun";
 import Maquinas from "./lensun/lensun principal/maquinas/maquinas";
-import MaquinasUv from "./lensun/lensun principal/maquinas uv/maquinasuv";
+
 import Glitter from "./lensun/lensun principal/gliter/glitter";
 
 import Cargando from "./inicio/loading/loading";
 import Mark from "./mark/mark";
 import Maxxa from "./maxxa/maxxa"
+import Wuw from "./wuw/wuw";
 import videoLogin from "./inicio/foto/videos/videoCargando.mp4"
 
 
@@ -47,18 +48,16 @@ function App  () {
         
         <Cabeza />
         <Routes>
-        
-        <Route path="/" element= {<Lensun />} />;
+        <Route path="/" element={<Optimizar />} />;
+        <Route path="/lensun" element= {<Lensun />} />;
         <Route path="/glitter" element= {<Glitter />} />;
-        <Route path="/maquinasuv" element= {<MaquinasUv />} />;   
         <Route path="/maquinas" element={<Maquinas />} />;    
         <Route path="/videos" element= {<Videos />} />;
         <Route path= "/lensun" element= {<Lensun />} />;
         <Route path="/back" element={<BackDiseño />} />;
-      
         <Route path="/mark" element={<Mark />} />;
-        <Route path="/maxxa" element={<Maxxa />} />
-        
+        <Route path="/maxxa" element={<Maxxa />} />;
+        <Route path="/wuw" element={<Wuw />} />
         </Routes>
      
         <Pie />

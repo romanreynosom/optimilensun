@@ -12,6 +12,8 @@ import insta4 from "../../fotos/logos/insta3.png"
 import optiTecno from "../../fotos/logos/Logo-optimizar-tecno.jpg"
 import insta5 from "../../fotos/logos/insta4.jpeg"
 import wsp from "../../fotos/logos/wsp.png"
+import LogoOptimizar1 from "../../../inicio/foto/logo-limpio.png"
+import Logolimpio from "../../fotos/logos/logo-limpio.png"
 
 const productos = [
     {
@@ -70,6 +72,14 @@ const productos = [
     {
         "id":13,
         "img": wsp
+    },
+    {
+        "id":14,
+        "img": LogoOptimizar1
+    },
+    {
+        "id":15,
+        "img": Logolimpio
     }
 ]
 export default productos

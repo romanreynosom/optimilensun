@@ -9,6 +9,7 @@ function Maxxa(){
     <body className="maxxa">
     
     <section className="fotosMaxxa">
+    <img className="maxxaTop" src="https://firebasestorage.googleapis.com/v0/b/lensuncaba.appspot.com/o/logos%20marcar%2Fmaxxa2.png?alt=media&token=65e50cdd-50f2-4712-b94d-32cd363a6eed" />
       <br></br>
       <div class="container px-4 px-lg-5 mt-5">
             <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
@@ -109,38 +110,6 @@ function Maxxa(){
                         </div>
                     </div>
                 </div>
-                <div class="col mb-5">
-                <div className="backMaxxa">
-                    <div class="card h-100">
-                        <img class="card-img-top" src="" alt="..." />
-                        <div class="card-body p-4">
-                          <div class="text-center">
-                            <h5 class="fw-bolder">ZR037</h5>
-                           
-                           </div>
-                        </div>
-                       
-                        </div>
-                    </div>
-                </div>
-                <div class="col mb-5">
-                <div className="backMaxxa">
-                    <div class="card h-100">
-                        <img class="card-img-top" src="" alt="..." />
-                        <div class="card-body p-4">
-                          <div class="text-center">
-                            <h5 class="fw-bolder">KJ021</h5>
-                           
-                           </div>
-                        </div>
-                       
-                        </div>
-                    </div>
-                </div>
-
-
-               
-
                 </div>
                 </div>      
     </section>

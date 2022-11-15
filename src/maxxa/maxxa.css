@@ -1,7 +1,9 @@
-.maxxa{background-color: rgb(198, 32, 56);}
+.maxxa{background-color: rgb(198, 32, 56);
+ margin-top: 35px;}
+
 .fotosMaxxa{
     background-color: white;
-    border-radius: 170px 6px 120px 12px; 
+    border-radius: 200px 6px 120px 12px; 
 };
     
 .backMaxxa{

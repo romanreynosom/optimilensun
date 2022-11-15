@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3db891ad.css",
+    "main.js": "/static/js/main.766556f0.js",
+    "static/media/videoCargando.mp4": "/static/media/videoCargando.094b9c7d9ccbce2135ad.mp4",
+    "static/media/Logo-optimizar-tecno.jpg": "/static/media/Logo-optimizar-tecno.49a3483270c28948a82e.jpg",
+    "static/media/Logo-optimizar-tecno-Blanco.png": "/static/media/Logo-optimizar-tecno-Blanco.a5850ee09e1f5f8ec4b1.png",
+    "static/media/logo-limpio.png": "/static/media/logo-limpio.360ca8f9840b4aa87adf.png",
+    "static/media/cabezal-optimizar-6.png": "/static/media/cabezal-optimizar-6.7e83cfbefdcb5853e80b.png",
+    "static/media/cabezal-optimizar-8.png": "/static/media/cabezal-optimizar-8.679b5c9522bb4bbbddab.png",
+    "static/media/filmsilver.jpg": "/static/media/filmsilver.c2ad1e6625cfa5efdcab.jpg",
+    "static/media/optimizar.png": "/static/media/optimizar.3c61d8d51795ebf1689b.png",
+    "static/media/insta2.svg": "/static/media/insta2.f8609825074d8a3ba9d89d3d2a6e22b5.svg",
+    "static/media/email1.svg": "/static/media/email1.f9569279ab775fc4daf027a5acb879a9.svg",
+    "index.html": "/index.html",
+    "main.3db891ad.css.map": "/static/css/main.3db891ad.css.map",
+    "main.766556f0.js.map": "/static/js/main.766556f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3db891ad.css",
+    "static/js/main.766556f0.js"
+  ]
+}

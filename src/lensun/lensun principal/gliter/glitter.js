@@ -1,4 +1,4 @@
-import LensunHeader from "../../header/headerlensun"
+import LensunHeader from "../../header/lensun/headerlensun"
 
 function Glitter(){
     return(

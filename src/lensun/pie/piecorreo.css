@@ -1,0 +1,27 @@
+@media (max-width: 767px) {
+   
+    .modalPie{
+       
+        height: 860px;
+        width: 300px;
+    }
+ .modalimg{
+    height: 260px;
+ }
+
+.comentario{
+    margin-top: 5px;
+    width: 100%;
+   
+}}
+
+.cerrar{
+    width: 100%;
+    text-align: center;
+}
+.btnEnviar{
+    text-align: center;
+}
+.comentario{
+    margin-top: 5px;
+}
